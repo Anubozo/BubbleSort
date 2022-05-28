@@ -4,7 +4,7 @@ let width = 400;
 function setup(){
 
     createCanvas(width, width);
-    frameRate(2);
+    //frameRate(2);
     for(let i = 0; i < 100; i++){
         array.push(Math.random()*1000000);
     }
